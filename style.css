@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('fonts/MaisonNeue-Book.eot');
+    src: url('fonts/MaisonNeue-Book.eot?#iefix') format('embedded-opentype'), url('fonts/MaisonNeue-Book.woff') format('woff'), url('fonts/MaisonNeue-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('fonts/MaisonNeue-BookItalic.eot');
+    src: url('fonts/MaisonNeue-BookItalic.eot?#iefix') format('embedded-opentype'), url('fonts/MaisonNeue-BookItalic.woff') format('woff'), url('fonts/MaisonNeue-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('fonts/MaisonNeue-Bold.eot');
+    src: url('fonts/MaisonNeue-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/MaisonNeue-Bold.woff') format('woff'), url('fonts/MaisonNeue-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Maison Neue', monospace;
+    font-weight: normal;
+    font-style: normal;
+    color: #666;
+    line-height: 1.4;
+    font-size: 1.23rem;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 1.25em;
+}
+
+.content {
+    margin: 50px;
+    max-width: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: solid 1px #666;
+}
+
+a:hover,
+a:active {
+    font-weight: 700;
+    color: #1758d1;
+    border-bottom: solid 2px #1758d1;
+}
+
+::-moz-selection {
+    background: #FEFF9A;
+}
+
+::selection {
+    background: #FEFF9A;
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}
